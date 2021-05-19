@@ -1,0 +1,17 @@
+<form [formGroup]="textArea" (ngSubmit)="submitComment()">
+  <textarea rows="10" cols="150" formControlName="textAreaInput" required> </textarea><br />
+  <div>
+    <div *ngIf="controlsText.textAreaInput.touched && controlsText.textAreaInput.errors">
+      <div *ngIf=" controlsText.textAreaInput.errors.required">
+        <span>Please enter Comment</span>
+      </div>
+
+
+    </div>
+
+  </div>
+  <button type="submit" [disabled]="!textArea.valid">
+    <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+    <span>Add Reply</span>
+  </button>
+</form>

@@ -1,0 +1,206 @@
+
+form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+textarea{
+  border: 2px solid black;
+}
+
+button{
+  height: 7vh;
+  width: 15%;
+  color: white;
+  background-color: blue;
+  border: none;
+  outline: none;
+ cursor: pointer;
+  line-height: 3.5vh;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+   i{
+    text-align: left;
+    font-size: 16px;
+    font-weight: normal;
+  }
+
+  span{
+    font-size: 16px;
+    font-weight: normal;
+    text-align: right;
+  }
+
+}
+button:hover{
+  background-color: blueviolet;
+
+}
+
+button:disabled{
+  background-color: rgb(108, 108, 245);
+  cursor: not-allowed;
+  pointer-events: all !important;
+}
+// Galaxy S4, S5 and Note 3 and Moto G4
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3) {
+
+
+
+
+    button{
+      height: 7vh;
+      width: 30%;
+    }
+}
+
+
+// Pixel2 and pixel 2 excel
+@media screen
+  and (device-width: 411px)
+  and (min-device-height: 731px)
+ {
+
+    button{
+      height: 7vh;
+      width: 30%;
+    }
+}
+
+
+
+// Iphone 6,7,8
+@media screen
+  and (device-width: 375px)
+  and (device-height: 667px)
+ {
+
+    button{
+      height: 7vh;
+      width: 30%;
+    }
+}
+
+
+
+// Iphone 6,7,8 Plus
+@media screen
+  and (device-width: 414px)
+  and (device-height: 736px)
+ {
+
+    button{
+      height: 7vh;
+      width: 30%;
+    }
+}
+
+
+// Iphone 5se
+@media screen
+  and (device-width: 320px)
+  and (device-height: 568px)
+ {
+
+    button{
+      height: 7vh;
+      width: 30%;
+    }
+}
+
+
+// Ipad
+@media screen
+  and (device-width: 768px)
+  and (device-height: 1024px)
+ {
+
+    button{
+      height: 7vh;
+      width: 30%;
+    }
+}
+
+
+// Ipad
+@media screen
+  and (device-width: 1024px)
+  and (device-height: 1366px)
+ {
+
+    button{
+      height: 7vh;
+      width: 30%;
+    }
+}
+
+//Surface Duo
+@media screen
+  and (device-width: 540px)
+  and (device-height: 720px)
+ {
+
+    button{
+      height: 7vh;
+      width: 30%;
+    }
+}
+
+
+//Galaxy Fold
+@media screen
+  and (device-width: 280px)
+  and (device-height: 653px)
+ {
+
+    button{
+      height: 7vh;
+      width: 40%;
+
+      i{
+        text-align: left;
+        font-size: 20px;
+        font-weight: normal;
+      }
+    }
+}
+
+
+// Responsive
+@media screen and (max-device-width: 500px)
+and (min-device-width: 300px)
+{
+  button{
+    height: 7vh;
+    width: 40%;
+
+    i{
+      text-align: left;
+      font-size: 18px;
+      font-weight: normal;
+    }
+  }
+}
+
+// Responsive
+@media screen and (max-device-width: 299px)
+and (min-device-width: 150px)
+{
+  button{
+    height: 7vh;
+    width: 40%;
+
+    i{
+      text-align: left;
+      font-size: 20px;
+      font-weight: normal;
+    }
+  }
+}
+

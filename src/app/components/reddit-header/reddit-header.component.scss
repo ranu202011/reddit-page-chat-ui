@@ -1,0 +1,57 @@
+@import '../../../appStyles/constant.scss';
+
+
+
+header{
+  width: 100vw;
+  height:10vh;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+display: flex;
+justify-content: flex-start;
+border-bottom: 1px solid $borderColor;
+
+}
+
+// Galaxy S4, S5 and Note 3 and Moto G4
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3) {
+
+
+
+
+    header{
+      height: 13vh;
+
+    }
+}
+
+//Surface Duo
+@media screen
+  and (device-width: 280px)
+  and (device-height: 653px)
+ {
+
+  header{
+    // height: 20vh;
+
+    h2{
+      height: 12vh;
+    }
+  }
+
+}
+
+
+// Iphone 5se
+@media screen
+  and (device-width: 320px)
+  and (device-height: 568px)
+ {
+
+    h2{
+      height: 7vh;
+
+    }
+}

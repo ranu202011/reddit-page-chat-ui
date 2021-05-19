@@ -1,0 +1,10 @@
+<ng-container *ngFor="let item of dataAuthor">
+
+  <h4>{{item?.data?.author}}
+    <span> {{getDate(item?.data?.created_utc )}}</span>
+  </h4>
+  <!-- <p>{{getDate()}}</p> | date:'shortTime' -->
+
+  <h6>{{item?.data?.title}}</h6>
+  <app-reddit-comment-reply></app-reddit-comment-reply>
+</ng-container>

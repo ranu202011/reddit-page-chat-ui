@@ -1,0 +1,312 @@
+@import '../../../appStyles/constant.scss';
+
+:host{
+  width:200px;
+}
+
+img{
+  border:1px solid $backgroundcolor;
+  background-color: $backgroundcolor;
+  width:100%;
+  height: 100%;
+}
+
+// Galaxy S4, S5 and Note 3 and Moto G4
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  // and (-webkit-device-pixel-ratio: 3) {
+{
+    :host{
+      width:300px;
+    }
+
+figure{
+  width: 103px;
+  //height: 110px;
+  position: relative;
+  right: 43%;
+  padding-left: 2px;
+  bottom: 5px;
+}
+    img{
+      height: 100%;
+      width: 100%;
+    }
+}
+
+
+//Pixel2 and Pixel2XL
+@media screen
+  and (device-width: 411px)
+  and (min-device-height: 731px)
+  // and (-webkit-device-pixel-ratio: 3) {
+{
+    :host{
+      width:400px;
+    }
+
+figure{
+  width: 110px;
+  position: relative;
+  right: 24%;
+  padding-right: 6px;
+  bottom: 6px;
+}
+    img{
+      height: 100%;
+      width: 100%;
+    }
+}
+
+// Iphone 5se
+@media screen
+  and (device-width: 320px)
+  and (device-height: 568px)
+ {
+  :host{
+    width:283px;
+  }
+  figure{
+    width: 95px;
+    height: 120px;
+    position: relative;
+    right: 62%;
+    padding-right: 0px;
+    top: 9px;
+  }
+
+    img{
+      width: 100%;
+      height: 100%;
+
+    }
+}
+
+
+// Iphone 6/7/8
+@media screen
+  and (device-width: 375px)
+  and (device-height: 667px)
+ {
+  :host{
+    width:400px;
+  }
+  figure{
+    width: 125px;
+    height: 121px;
+    position: relative;
+    right: 34%;
+    padding-right: 0px;
+    top: 9px;
+  }
+
+    img{
+      width: 100%;
+      height: 100%;
+
+    }
+}
+
+
+
+// Iphone 6/7/8 Plus
+@media screen
+  and (device-width: 414px)
+  and (device-height: 736px)
+ {
+  :host{
+    width:400px;
+  }
+  figure{
+    width: 125px;
+    height: 121px;
+    position: relative;
+    right: 34%;
+    padding-right: 0px;
+    top: 9px;
+  }
+
+    img{
+      width: 100%;
+      height: 100%;
+
+    }
+}
+
+
+// Iphone 6/7/8 Plus
+@media screen
+  and (device-width: 375px)
+  and (device-height: 812px)
+ {
+  :host{
+    width:400px;
+  }
+  figure{
+    width: 125px;
+    height: 121px;
+    position: relative;
+    right: 34%;
+    padding-right: 0px;
+    top: 9px;
+  }
+
+    img{
+      width: 100%;
+      height: 100%;
+
+    }
+}
+
+
+
+//Surface Duo
+@media screen
+  and (device-width: 540px)
+  and (device-height: 720px)
+ {
+
+  :host{
+    width:196px;
+  }
+  figure{
+    width: 150px;
+    height: 125px;
+    position: relative;
+    right: 23%;
+    padding-right: 0px;
+    top: 9px;
+  }
+  img{
+    height: 100%;
+    width: 100%;
+  }
+}
+
+//Galaxy Fold
+@media screen
+  and (device-width: 280px)
+  and (device-height: 653px)
+ {
+
+  :host{
+    width:1024px;
+  }
+  figure{
+    width: 144px;
+    height: 177px;
+    position: relative;
+    right: 23%;
+    padding-right: 0px;
+    top: 9px;
+  }
+
+    img{
+      width: 100%;
+      height: 100%;
+
+    }
+}
+
+
+///responsive
+
+@media screen and (max-device-width: 500px) {
+  /* MOBILE.CSS CODE HERE */
+  :host{
+    width:400px;
+  }
+  figure{
+    width: 177px;
+    height: 177px;
+    position: relative;
+    right: 14%;
+    padding-right: 0px;
+    top: 9px;
+  }
+
+    img{
+      width: 100%;
+      height: 100%;
+
+    }
+}
+
+@media screen and (max-device-width: 400px)
+and (min-device-width: 300px)
+{
+  /* MOBILE.CSS CODE HERE */
+  :host{
+    width:400px;
+  }
+  figure{
+    width: 116px;
+    height: 147px;
+    position: relative;
+    right: 17%;
+    padding-right: 0px;
+    top: 1px;
+  }
+
+    img{
+      width: 100%;
+      height: 100%;
+
+    }
+}
+
+@media screen and (max-device-width: 300px) {
+  /* MOBILE.CSS CODE HERE */
+  :host{
+    width:197px;
+  }
+  figure{
+    width: 69px;
+    height: 139px;
+    position: relative;
+    right: 23%;
+    padding-right: 0px;
+    top: 9px;
+  }
+
+    img{
+      width: 100%;
+      height: 100%;
+
+    }
+}
+
+
+
+// Responsive
+@media screen and (max-device-width: 299px)
+and (min-device-width: 200px){
+  :host{
+    width:155px;
+  }
+  figure{
+    width: 40px;
+    height: 134px;
+    position: relative;
+    right: 47%;
+    padding-right: 0px;
+    top: 9px;
+  }
+
+    img{
+      width: 100%;
+      height: 100%;
+
+    }
+
+
+}
+
+
+
+
+
+
+
+

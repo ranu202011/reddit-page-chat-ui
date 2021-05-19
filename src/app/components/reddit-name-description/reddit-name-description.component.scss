@@ -1,0 +1,21 @@
+@import '../../../appStyles/constant.scss';
+
+
+h4, h6{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h4>span{
+  color: $color;
+  font-size: 12px;
+}
+
+
+@media screen and (max-device-width: 800px) {
+  /* MOBILE.CSS CODE HERE */
+  h4>span{
+    color: $color;
+    font-size: 10%;
+  }
+}
+

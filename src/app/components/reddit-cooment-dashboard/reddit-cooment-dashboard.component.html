@@ -1,0 +1,8 @@
+<app-reddit-header></app-reddit-header>
+<main>
+  <app-reddit-image *ngIf="getdata" [children]="children"></app-reddit-image>
+  <app-reddit-name-description *ngIf="getdata" [children]="children"></app-reddit-name-description>
+</main>
+<footer>
+  <app-reddit-reply></app-reddit-reply>
+</footer>
